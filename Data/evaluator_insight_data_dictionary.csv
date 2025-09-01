@@ -1,0 +1,47 @@
+column,dtype,description,example
+respondent_id,string,Unique respondent identifier.,R00001
+company_name,string,Synthetic company name.,BlueRiver Networks 7252
+industry,category,High‑level industry sector.,Manufacturing
+subindustry,category,Sub‑sector within the industry.,Automotive
+hq_country,category,Company headquarters country.,United States
+hq_state,category,US state for HQ.,MA
+company_size_bucket,category,Employee count bucket.,1‑50
+employees,int,Estimated number of employees.,32
+annual_revenue_usd,float,Estimated annual revenue in USD.,3040511.3
+decision_maker_role,category,Job title of primary decision maker.,CTO
+seniority,category,Seniority level for role.,Executive
+decision_authority_1to5,int (1‑5),Perceived authority over purchase.,5
+buying_stage,category,Stage in buying journey.,Consideration
+acquisition_channel,category,How prospect was acquired.,Conference/Event
+contact_preference,category,Preferred contact method.,Self‑serve Demo
+budget_bucket,category,Categorical budget bracket.,<$25k
+budget_estimate_usd,float,Estimated budget for initiative.,21516.66
+urgency_1to5,int (1‑5),Urgency score (higher=faster need).,3
+timeline_days,int,Expected days to decision.,74
+procurement_complexity_1to5,int (1‑5),Complexity of procurement.,1
+vendor_count_considered,int,Number of vendors under consideration.,3
+risk_tolerance_1to5,int (1‑5),Organizational risk tolerance.,2
+technical_maturity_1to5,int (1‑5),Maturity of technical org.,3
+existing_tools,string,Key incumbent tools or platforms.,"SAP, Siemens"
+integration_requirements,string,Integration & compliance requirements.,REST/GraphQL API for data sync; SIEM forwarding for audit logs; SSO with SAML/OIDC; event streaming via webhooks; role‑based access control
+evaluation_weight_price,float (0‑1),Relative weight of price.,0.1713
+evaluation_weight_roi,float (0‑1),Relative weight of ROI.,0.1104
+evaluation_weight_security,float (0‑1),Relative weight of security.,0.1578
+evaluation_weight_scalability,float (0‑1),Relative weight of scalability.,0.2038
+evaluation_weight_ease_of_use,float (0‑1),Relative weight of ease of use.,0.1171
+evaluation_weight_support,float (0‑1),Relative weight of support.,0.1917
+evaluation_weight_compliance,float (0‑1),Relative weight of compliance.,0.0478
+topics,string (csv),Key topical themes from transcript.,"analytics, compliance"
+psychographic_tags,string (csv),Inferred psychographic markers.,"Integration‑First, ROI‑Driven"
+persona,category,Derived buyer persona cluster label.,ROI Maximizer
+cluster_id,int,Cluster id (0‑4).,0
+cluster_confidence_0to1,float (0‑1),Confidence score for persona/cluster.,0.807
+sentiment_polarity,float (‑1..1),Overall sentiment polarity of transcript.,-0.191
+sentiment_label,category,Sentiment label.,negative
+response_text,string,Synthetic transcript text (1‑3 sentences).,"As the CTO, I'm evaluating options because supply chain variability hurts forecasts. Our objective is to reduce time‑to‑value while minimizing disruption. We need clear integration paths and a fast security review to move forward."
+pain_point_summary,string,Short summary of primary pain point.,supply chain variability hurts forecasts
+goal_summary,string,Short summary of primary goal.,reduce time‑to‑value
+recommended_message_angle,string,Recommended opening pitch framing.,"Lead with quantified ROI, TCO reduction, and time‑to‑value benchmarks."
+next_best_action,string,Recommended next step aligned to stage.,Offer a 30‑min discovery call to scope integrations and success metrics.
+dataset_version,string,Semantic version for the dataset.,1.0
+dataset_created_utc,ISO8601 string,Creation timestamp (UTC).,2025-08-18T18:29:36
