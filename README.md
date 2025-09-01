@@ -1,8 +1,6 @@
-# ai_studio_1B
-This is the github repository for our Break Through Tech Studio project, where we collaborate with Chambers Capital. 
-
 # Evaluator-Insight
-Analyze psychological buying drivers of B2B decision-makers.
+Analyze psychological buying drivers of B2B decision-makers. 
+
 Uses NLP and clustering models to analyze the psychological buying behaviors of B2B decision-makers.
 
 # Challenge Summary
